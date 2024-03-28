@@ -1,3 +1,18 @@
 body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
     background-color: lightblue;
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3e9987;
+    line-height: 50px;    
+}
+
+.my-name {
+    margin: 0;
+}
+
