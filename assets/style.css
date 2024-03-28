@@ -8,11 +8,17 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #3e9987;
+    background-color: #085647;
     line-height: 50px;    
+    padding: 0 35px;
 }
 
 .my-name {
     margin: 0;
+    background-color: #3e9987;
+}
+
+nav {
+    
 }
 
