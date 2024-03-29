@@ -6,36 +6,35 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
     background-color: #085647;
-    height: 100px;    
     padding: 0 35px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .my-name {
     margin: 0;
     background-color: #64c4b1;
-    width: 23%;
+    width: 310px;
+    height: 100px;
     line-height: 100px;
     text-align: center;
     display: inline-block;
     font-size: xx-large;
 }
 
-.pic {
+/* .pic {
     width: 100px;
     height: 100px;
-    margin-right: 550px;
-}
+} */
 
 .links { 
-    float: right;
-    line-height: 100px;
+    text-align: right;
 }
 
 .links ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 25px
 }
 
 a {
