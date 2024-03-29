@@ -12,21 +12,22 @@ header {
     justify-content: space-between;
 }
 
-.my-name {
+header span {
+    display: flex;
     margin: 0;
     background-color: #64c4b1;
     width: 310px;
     height: 100px;
-    line-height: 100px;
-    text-align: center;
-    display: inline-block;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
     font-size: xx-large;
 }
 
-/* .pic {
+.pic {
     width: 100px;
     height: 100px;
-} */
+}
 
 .links { 
     text-align: right;
