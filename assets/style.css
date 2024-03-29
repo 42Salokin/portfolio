@@ -15,10 +15,18 @@ header {
 
 .my-name {
     margin: 0;
-    background-color: #3e9987;
+    background-color: #64c4b1;
+    width: 23%;
+    text-align: center;
 }
 
 nav {
-    
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: #64c4b1;
 }
 
