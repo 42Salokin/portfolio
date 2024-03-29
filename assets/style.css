@@ -5,8 +5,10 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
     background-color: #085647;
-    line-height: 60px;    
+    height: 100px;    
     padding: 0 35px;
 }
 
@@ -14,14 +16,21 @@ header {
     margin: 0;
     background-color: #64c4b1;
     width: 23%;
+    line-height: 100px;
     text-align: center;
     display: inline-block;
+    font-size: xx-large;
+}
+
+.pic {
+    width: 100px;
+    height: 100px;
+    margin-right: 550px;
 }
 
 .links { 
-    margin: 0 20px;
     float: right;
-    line-height: 175%;
+    line-height: 100px;
 }
 
 .links ul li {
