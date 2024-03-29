@@ -5,11 +5,8 @@ body {
 }
 
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     background-color: #085647;
-    line-height: 50px;    
+    line-height: 60px;    
     padding: 0 35px;
 }
 
@@ -18,15 +15,26 @@ header {
     background-color: #64c4b1;
     width: 23%;
     text-align: center;
+    display: inline-block;
 }
 
-nav {
-    width: 30%;
-    display: flex;
-    justify-content: space-around;
+.links { 
+    margin: 0 20px;
+    float: right;
+    line-height: 175%;
+}
+
+.links ul li {
+    display: inline-block;
+    margin-left: 25px;
 }
 
 a {
     color: #64c4b1;
+    font-size: 120%;
+    text-decoration: none;
 }
 
+.about {
+    display: inline-block;
+}
