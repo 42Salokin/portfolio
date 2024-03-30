@@ -64,7 +64,7 @@ a {
     margin-right: 10px;
 }
 
-#about-me {
+#about-me, #work, #contact-me {
     text-wrap: wrap;
     width: 75%;
     height: 200px;
