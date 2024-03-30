@@ -24,7 +24,7 @@ header span {
     font-size: xx-large;
 }
 
-.pic {
+.pic-1 {
     width: 100px;
     height: 100px;
 }
@@ -44,6 +44,29 @@ a {
     text-decoration: none;
 }
 
-.about {
-    display: inline-block;
+/* .pic-2 {
+    width: 100%;
+    height: 100px;
+} */
+
+.sections {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+.sub-headers {
+    font-size: x-large;
+    text-wrap: wrap;
+    width: 10%;
+    text-align: right;
+    line-height: 35px;
+    margin-right: 10px;
+}
+
+#about-me {
+    text-wrap: wrap;
+    width: 75%;
+    height: 200px;
+    line-height: 25px;
 }
