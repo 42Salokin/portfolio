@@ -58,10 +58,12 @@ a {
 .sub-headers {
     font-size: x-large;
     text-wrap: wrap;
-    width: 10%;
+    width: 14%;
     text-align: right;
     line-height: 35px;
-    margin-right: 10px;
+    margin-right: 75px;
+    border-right: 2px solid darkblue;
+    padding-right: 10px;
 }
 
 #about-me, #work, #contact-me {
@@ -69,4 +71,22 @@ a {
     width: 75%;
     height: 200px;
     line-height: 25px;
+    font-size: medium;
 }
+
+@media screen and (max-width: 768px) {
+    .sub-headers {
+        font-size: medium;
+        padding-right: 12px;
+    }
+    #about-me {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .sub-headers {
+        font-size: small;
+    }
+}
+
