@@ -51,27 +51,26 @@ a {
 
 .sections {
     display: flex;
-    justify-content: space-evenly;
     margin: 25px;
 }
 
 .sub-headers {
     font-size: x-large;
     text-wrap: wrap;
-    width: 14%;
     text-align: right;
     line-height: 35px;
-    margin-right: 75px;
+    margin-right: 40px;
     border-right: 2px solid darkblue;
     padding-right: 10px;
+    flex: 1;
 }
 
-#about-me, #work, #contact-me {
+#about-me, #work, #contact-me, .sample-img {
     text-wrap: wrap;
-    width: 75%;
     height: 200px;
     line-height: 25px;
     font-size: medium;
+    flex: 3;
 }
 
 @media screen and (max-width: 768px) {
@@ -84,9 +83,10 @@ a {
     }
 }
 
-@media screen and (max-width: 550px) {
-    .sub-headers {
-        font-size: small;
-    }
-}
+.sample-img {
+    background-color: #fff;
+    padding: 20px;
+    height: 200px;
+    border: 1px solid black;
+  }
 
