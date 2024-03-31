@@ -84,6 +84,7 @@ a {
 
 #flag span {
     background-color: #64c4b1;
+    padding: 6px;
 }
 .sections {
     display: flex;
