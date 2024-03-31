@@ -111,12 +111,25 @@ a {
     flex: 3;
 }
 
-#h-container {
+#w-container {
     flex: 3;
 }
 
+#refactor {
+    position: relative;
+}
+
+#refactor span {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    background-color: lightblue;
+    color: black;
+    border: 1px solid black;
+    font-size: medium;
+}
+
 #horiseon {
-    display: block;
     width: 90%;
 }
 
@@ -127,6 +140,9 @@ a {
     }
     #about-me {
         font-size: small;
+    }
+    #refactor span {
+        font-size: x-small;
     }
 }
 
