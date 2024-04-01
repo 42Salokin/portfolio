@@ -18,7 +18,9 @@ https://42salokin.github.io/portfolio/
 
 ## Credits
 
-N/A
+I frequently used advice from other developers in Stack Overflow and the information at W3schools to assist me with formatting and creating a responsive interface.
+
+Pride flag code directly borrowed from Todd Barchok at http://barchok.com/flags.html
 
 ## License
 
