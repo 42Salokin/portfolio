@@ -102,7 +102,7 @@ a {
 #about-me,
 #contact-me {
     text-wrap: wrap;
-    height: 150px;
+    height: fit-content;
     line-height: 25px;
     font-size: medium;
     flex: 3;
