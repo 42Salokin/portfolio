@@ -147,6 +147,13 @@ a {
     color: darkblue;
 }
 
+h3 {
+    text-align: center;
+    color: lightblue;
+    background-color: darkblue;
+    line-height: 20px;
+}
+
 @media screen and (max-width: 768px) {
     .sub-headers {
         padding-right: 12px;
