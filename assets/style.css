@@ -33,7 +33,7 @@ header span {
     height: 100px;
 }
 
-.links { 
+.links {
     text-align: right;
 }
 
@@ -68,11 +68,11 @@ a {
 #flag {
     height: 50px;
     background: linear-gradient(180deg, #FE0000 16.66%,
-    #FD8C00 16.66%, 33.32%,
-    #FFE500 33.32%, 49.98%,
-    #119F0B 49.98%, 66.64%,
-    #0644B3 66.64%, 83.3%,
-    #C22EDC 83.3%);
+            #FD8C00 16.66%, 33.32%,
+            #FFE500 33.32%, 49.98%,
+            #119F0B 49.98%, 66.64%,
+            #0644B3 66.64%, 83.3%,
+            #C22EDC 83.3%);
     text-align: right;
     padding: 15px 30px;
     font-size: 100%;
@@ -99,7 +99,8 @@ a {
     flex: 1;
 }
 
-#about-me, #contact-me {
+#about-me,
+#contact-me {
     text-wrap: wrap;
     height: 200px;
     line-height: 25px;
@@ -142,19 +143,25 @@ a {
     font-size: 100%;
 }
 
+#contact-me a {
+    color: darkblue;
+}
+
 @media screen and (max-width: 768px) {
     .sub-headers {
         padding-right: 12px;
         font-size: 100%;
     }
+
     #about-me {
         font-size: small;
     }
+
     #refactor span {
         font-size: 60%;
     }
+
     .placeholder {
         font-size: 60%;
     }
 }
-
